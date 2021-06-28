@@ -7,9 +7,13 @@ const audioChime = document.getElementById('chime')
 
 btn.addEventListener('click', () => {
 
+  
     
+          
     audioChime.play();
 
+        // audioChime.stop();
+  
     let hexColor = '#';
     for(let i = 0; i < 6; i++) {
 

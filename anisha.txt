@@ -1,0 +1,50 @@
+.next-btn {
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  background-color: #b34ace;
+  border: none;
+  color: rgb(231, 216, 216);
+  text-align: right;
+  font-size: 20px;
+  width: 60px;
+  height: 30px;
+  transition: all 0.5s;
+  cursor: auto;
+  margin: 20px;
+
+}
+.next-btn {
+  cursor: pointer;
+  display: inline-block;
+  position:absolute;
+  left: 80%;
+  right: 20%;
+  bottom: 05%;
+  top: 80%;
+  transition: 0.5s;
+}
+
+.next-btn:after {
+  content: "➡";
+  position: bottom;
+  opacity: 012;
+  top: 15px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.next-btn:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.next-btn:hover:after {
+  opacity: 2;
+  left: 10px;
+}
+
+
+<!--aniiii-->
+ <a href="../pages/counter.html">
+                <button type="next" class="next-btn pull-right">next</button>
+        </a>

@@ -198,16 +198,6 @@
   text-align: center;
 }
 
-/* counter */
-
-@font-face {
-    font-family: 'digital';
-    src: url('/font/webfontkit-20210629-060500/technology-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 .container .counter-container {
   height: 100vh;
   width: 100vw;
@@ -226,60 +216,25 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  
 }
-
-
 
 .container .counter-container span h1 {
-  color: #39ff14;
+  color: #04b904;
   font-size: 120px;
-  font-family: 'Digital';
-  }
-  
+}
+
 .container .counter-container .button-container .btn-primary {
-  font: small-caps bold 24px/1 sans-serif;
   background: #000;
-  font-family: 'Digital-7 Mono';
 }
-
-/* neon counter */
-
-#play:hover {
-  background-color: #00ff66;
-  -webkit-box-shadow: 10px 10px 99px 6px rgb(70, 236, 70);
-  -moz-box-shadow: 10px 10px 99px 6px rgb(70, 236, 70);
-  box-shadow: 10px 10px 99px 6px rgb(70, 236, 70);
-}
-
-#reset:hover {
-  background-color: #00ffff;
-  -webkit-box-shadow: 10px 10px 99px 6px rgb(56, 242, 255);
-  -moz-box-shadow: 10px 10px 99px 6px rgb(56, 242, 255);
-  box-shadow: 10px 10px 99px 6px rgb(56, 242, 255);
-}
-
-#reverse:hover {
-  background-color: #cc00ff;
-  -webkit-box-shadow: 10px 10px 99px 6px rgb(175, 6, 241);
-  -moz-box-shadow: 10px 10px 99px 6px rgb(175, 6, 241);
-  box-shadow: 10px 10px 99px 6px rgb(175, 6, 241);
-}
-
 /*# sourceMappingURL=style.css.map */
 
 /*back button*/
 .back-btn {
-  background-color: #00ffff;
-  -webkit-box-shadow: 10px 10px 99px 6px rgb(56, 242, 255);
-  -moz-box-shadow: 10px 10px 99px 6px rgb(56, 242, 255);
-  box-shadow: 10px 10px 99px 6px rgb(56, 242, 255);
   border-radius: 5px;
   background-color: #2a2a2a;
   border: none;
   color: white;
   text-align: right;
-  font: small-caps bold 24px/1 sans-serif;
   font-size: 15px;
   width: 70px;
   height: 30px;
@@ -287,7 +242,6 @@
   cursor: pointer;
   margin: 20px;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
- 
 }
 
 .back-btn {
@@ -309,10 +263,6 @@
 .back-btn:hover {
   padding-right: 24px;
   padding-left: 8px;
-  background-color: #fef900;
-  -webkit-box-shadow: 10px 10px 99px 6px rgb(236, 250, 44);
-  -moz-box-shadow: 10px 10px 99px 6px rgb(236, 250, 44);
-  box-shadow: 10px 10px 99px 6px rgb(236, 250, 44);
 }
 
 .back-btn:hover:after {

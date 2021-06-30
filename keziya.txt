@@ -1,0 +1,40 @@
+  <!-- typewriting-->
+            <div class="header">
+               <h1>JavaScript</h1>
+               <h1 class="typing">demo</h1>
+            </div>  
+            <script src="./js/typewirting.js"></script>
+
+  /*  typewriting*/
+.container .header h1 {
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+  font-weight:100;
+}
+
+.container .header .typing {
+  font-size: 30px;
+  font-weight: 100;
+  color:black;
+  position: relative;
+  }
+  
+.container .header .typing::after{
+ content:"";
+ position:absolute;
+ right:-5px;
+ width: 2px;
+ height: 90%;
+ border-right: 2px solid white;
+ animation: blink 0.5s infinite ease;
+}  
+
+@keyframes blink{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

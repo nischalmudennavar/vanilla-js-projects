@@ -73,13 +73,12 @@
     font-size: 30px;
     font-weight:100;
     font:bold;
-
   }
    .container .header .typing {
     font-size: 30px;
     font-weight: 100;
     font-family: 'Merriweather', serif;
-    color:black;
+    color:rgb(7, 7, 7);
     position: relative;
     }
     

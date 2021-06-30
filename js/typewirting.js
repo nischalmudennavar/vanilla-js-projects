@@ -21,6 +21,6 @@ let letter ="";
          index= 0;
         }
   setTimeout(type, 500);
- }
+
 
 )();

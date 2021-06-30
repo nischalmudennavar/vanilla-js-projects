@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: monospace;
+  /* font-family: monospace;  */
 }
 
 .btn-primary {
@@ -64,7 +64,7 @@
   border-radius: 10px;
   margin: 20px;
   text-align: center;
-  font-family: monospace;
+  /* font-family: monospace; */
 }
    /*  typewriting*/
    .container .header h1 {
@@ -72,11 +72,13 @@
     display: inline-block;
     font-size: 30px;
     font-weight:100;
+    font:bold;
+
   }
-  
-  .container .header .typing {
+   .container .header .typing {
     font-size: 30px;
     font-weight: 100;
+    font-family: 'Merriweather', serif;
     color:black;
     position: relative;
     }
@@ -100,6 +102,7 @@
     }
   }
 /* end of typewriting code */
+
 .container .js-demos {
   height: auto;
   width: 80%;

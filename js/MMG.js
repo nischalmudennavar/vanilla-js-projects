@@ -5,51 +5,51 @@ document.addEventListener('DOMContentLoaded',() => {
     const cardArray =[
         {
             name : 'cap',
-            img : '/images/cap.png'
+            img : '../assets/images/cap.png'
         },
         {
             name : 'cap',
-            img : '/images/cap.png'
+            img : '../assets/images/cap.png'
         },
         {
             name : 'dr.strange',
-            img : '/images/dr.strange.png'
+            img : '../assets/images/dr.strange.png'
         },
         {
             name : 'dr.strange',
-            img : '/images/dr.strange.png'
+            img : '../assets/images/dr.strange.png'
         },
         {
             name : 'ironman',
-            img : '/images/ironman.jpg'
+            img : '../assets/images/ironman.jpg'
         },
         {
             name : 'ironman',
-            img : '/images/ironman.jpg'
+            img : '../assets/images/ironman.jpg'
         },
         {
             name : 'spiderman',
-            img : '/images/spiderman.jpg'
+            img : '../assets/images/spiderman.jpg'
         },
         {
             name : 'spiderman',
-            img : '/images/spiderman.jpg'
+            img : '../assets/images/spiderman.jpg'
         },
         {
             name : 'scarletwitch',
-            img : '/images/scarletwitch.png'
+            img : '../assets/images/scarletwitch.png'
         },
         {
             name : 'scarletwitch',
-            img : '/images/scarletwitch.png'
+            img : '../assets/images/scarletwitch.png'
         },
         {
             name : 'thor',
-            img : '/images/Thor.png'
+            img : '../assets/images/Thor.png'
         },
         {
             name : 'thor',
-            img : '/images/Thor.png'
+            img : '../assets/images/Thor.png'
         },
     ]
 
@@ -64,7 +64,7 @@ cardArray.sort(() => 0.5 - Math.random())
     function createBoard(){
         for(let i = 0; i< cardArray.length; i++) {
             const card = document.createElement('img')
-            card.setAttribute('src','/images/marvel.jpeg')
+            card.setAttribute('src','../assets/images/marvel.jpeg')
             card.setAttribute('data-id', i)
             card.addEventListener('click', flipCard)
             grid.appendChild(card)
@@ -78,20 +78,20 @@ cardArray.sort(() => 0.5 - Math.random())
         const optionTwoId = cardsChosenId[1]
 
     if(optionOneId == optionTwoId) {
-    cards[optionOneId].setAttribute('src', '/images/marvel.jpeg')
-    cards[optionTwoId].setAttribute('src', '/images/marvel.jpeg')
+    cards[optionOneId].setAttribute('src', '../assets/images/marvel.jpeg')
+    cards[optionTwoId].setAttribute('src', '../assets/images/marvel.jpeg')
     alert('You found the superhero')
     }
     else if (cardsChosen[0] === cardsChosen[1]) {
     alert('You found the superhero.')
-    cards[optionOneId].setAttribute('src', '/images/white.jpg')
-    cards[optionTwoId].setAttribute('src', '/images/white.jpg')
+    cards[optionOneId].setAttribute('src', '../assets/images/white.jpg')
+    cards[optionTwoId].setAttribute('src', '../assets/images/white.jpg')
     cards[optionOneId].removeEventListener('click', flipCard)
     cards[optionTwoId].removeEventListener('click', flipCard)
     cardsWon.push(cardsChosen)
     } else {
-    cards[optionOneId].setAttribute('src', '/images/marvel.jpeg')
-    cards[optionTwoId].setAttribute('src', '/images/marvel.jpeg')
+    cards[optionOneId].setAttribute('src', '../assets/images/marvel.jpeg')
+    cards[optionTwoId].setAttribute('src', '../assets/images/marvel.jpeg')
     alert('Sorry, superheros are busy with Nick Fury:/ try calling again.')
     }
 

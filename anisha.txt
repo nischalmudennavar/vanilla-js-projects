@@ -48,3 +48,8 @@
  <a href="../pages/counter.html">
                 <button type="next" class="next-btn pull-right">next</button>
         </a>
+
+<!--aniiii-->
+ <a href="../pages/counter.html">
+                <button type="next" class="next-btn pull-right">next</button>
+        </a>

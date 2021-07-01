@@ -1,0 +1,28 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 400px;
+  border: 2px solid white;
+  position:relative;
+  top: 120px;
+  justify-content: center;
+  padding:0px;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  box-sizing: center;
+  
+  
+}
+
+h3{
+  color: white;
+  font-size: 50px;
+  font-style: bold;
+  
+}
+
+body{
+    background-color:black;
+}

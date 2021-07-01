@@ -8,7 +8,7 @@
   width: 150px;
   height: 40px;
   text-align: center;
-  background: #5a35ff;
+  background: #3515c2;
   margin: 10px;
   border: none;
   border-radius: 10px;
@@ -390,4 +390,8 @@
 .next-btn:hover:after {
   opacity: 2;
   left: 10px;
+}
+
+h2{
+  text-align: center;
 }
